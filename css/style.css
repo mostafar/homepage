@@ -1,16 +1,61 @@
 body {
     background: #f7f7f7;
+    font-family: "Sezoe UI", Tahoma;
 }
 
 .main {
-    background: #ffffff;
     margin: 0 auto;
     width: 800px;
+
+    border: 1px solid #cacaca;
+    background: white;
+
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,.1);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,.1);
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,.1);
+    padding: 0 20px;
+}
+
+.header {
+    padding: 20px 0 1px 0;
+}
+
+.introduction {
+    font-size: 1em;
+    margin-bottom: 100px;
+}
+
+.introduction p {
+    text-align: justify;
+}
+
+.avatar {
+    float: left;
+    margin: 0px 10px 10px 0px;
+}
+
+.avatar img {
+    width: 200px;
+    height: 200px;
+}
+
+
+.badges {
+    margin: 0 auto;
+    width: 640px;
+}
+
+.badges .item {
+    margin: 5px;
 }
 
 .google-plus {
     width: 320px;
     height: 106px;
+    margin: 5px;
 }
 
 .instagram {
@@ -19,8 +64,11 @@ body {
 }
 
 .twitter img {
-    width: 64px;
-    height: 64px;
+    width: 96px;
+    height: 96px;
+}
+
+.facebook {
 }
 
 /* Instagram */

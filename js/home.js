@@ -1,9 +1,9 @@
 
 function arrangeBadges() {
 
-    var x = document.getElementById('badges');
+    var x = document.getElementById('badges-container');
     var m = new Masonry (x, {
-        columnWidth: 10,
+        columnWidth: 20,
         itemSelector: '.item'
     });
 }

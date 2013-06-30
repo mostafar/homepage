@@ -1,8 +1,27 @@
+body {
+    background: #f7f7f7;
+}
+
+.main {
+    background: #ffffff;
+    margin: 0 auto;
+    width: 800px;
+}
+
 .google-plus {
     width: 320px;
     height: 106px;
 }
 
+.instagram {
+    width: 48px;
+    height: 48px;
+}
+
+.twitter {
+    width: 64px;
+    height: 64px;
+}
 
 /* Instagram */
 .ig-b- { display: inline-block; }

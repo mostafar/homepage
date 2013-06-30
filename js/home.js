@@ -3,7 +3,7 @@ function arrangeBadges() {
 
     var x = document.getElementById('badges');
     var m = new Masonry (x, {
-        columnWidth: 100,
+        columnWidth: 10,
         itemSelector: '.item'
     });
 }

@@ -2,7 +2,7 @@ body {
     background: rgb(26, 26, 26);
     color: white;
     font-family: "Courier New", Tahoma;
-    font-size: 1em;
+    font-size: 0.9em;
 }
 
 .main {
@@ -23,7 +23,6 @@ body {
 
 .introduction p {
     text-align: justify;
-    letter-spacing: -1px;
 }
 
 .avatar {

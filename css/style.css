@@ -5,6 +5,15 @@ body {
     font-size: 0.9em;
 }
 
+a {
+    color: blue;
+}
+
+.persian {
+    font-family: tahoma;
+    font-size: 0.9em;
+}
+
 .main {
     margin: 0 auto;
     width: 800px;

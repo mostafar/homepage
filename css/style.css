@@ -1,0 +1,95 @@
+body {
+    background: rgb(26, 26, 26);
+    color: white;
+    font-family: "Courier New", Tahoma;
+    font-size: 0.9em;
+}
+
+a {
+    color: blue;
+}
+
+.persian {
+    font-family: tahoma;
+    font-size: 0.9em;
+}
+
+.email {
+    width: 200px;
+    height: 20px;
+    margin: 0px 0px -6px -3px;
+}
+
+.main {
+    margin: 0 auto;
+    width: 800px;
+
+    padding: 0 20px;
+}
+
+.header {
+    padding: 20px 0 1px 0;
+}
+
+.introduction {
+    font-size: 1em;
+    margin-bottom: 100px;
+}
+
+.introduction p {
+    text-align: justify;
+}
+
+.avatar {
+    float: right;
+    margin: 0px 10px 10px 20px;
+}
+
+.avatar img {
+    width: 150px;
+    height: 150px;
+}
+
+
+.badges {
+    margin: 0 auto;
+    width: 640px;
+}
+
+.badges .item {
+    margin: 5px;
+}
+
+.google-plus {
+    width: 320px;
+    height: 106px;
+    margin: 5px;
+}
+
+.instagram {
+    width: 48px;
+    height: 48px;
+}
+
+.twitter img {
+    width: 96px;
+    height: 96px;
+}
+
+.facebook {
+}
+
+/* Instagram */
+.ig-b- { display: inline-block; }
+.ig-b- img { visibility: hidden; }
+.ig-b-:hover { background-position: 0 -60px; } .ig-b-:active { background-position: 0 -120px; }
+.ig-b-48 { width: 48px; height: 48px; background: url(http://badges.instagram.com/static/images/ig-badge-sprite-48.png) no-repeat 0 0; }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+.ig-b-48 { background-image: url(http://badges.instagram.com/static/images/ig-badge-sprite-48@2x.png); background-size: 60px 178px; } }
+
+.footer {
+    margin-top: 40px;
+    padding-top: 5px;
+    font-size: 0.8em;
+    border-top: 1px solid lightgray;
+}
